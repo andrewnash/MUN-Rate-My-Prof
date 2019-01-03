@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "MUN Rate my Prof Extenetion",
+  "version": "1.0",
+  "description": "Add info crawled from RMP to MUN registration system",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://www3.mun.ca/admit/bwskfcls.P_GetCrse*"]
+  }]
+ 
+}
